@@ -1,0 +1,24 @@
+{
+  "name": "dino",
+  "version": "1.0.0",
+  "description": "My Dino game",
+  "main": "index.js",
+  "author": "Reza Zacky Ramadan",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^6.0.3",
+    "phaser": "^3.24.1",
+    "ts-loader": "^8.0.2",
+    "typescript": "^3.9.7",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "webpack-dev-server": "^3.11.0"
+  }
+}
